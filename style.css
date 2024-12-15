@@ -1,0 +1,127 @@
+@font-face {
+        font-family: internet_friends;
+        src: url(/Internet\Friends.ttf);
+}
+
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(/fundoM.png);
+        background-color: #F5F4F4;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    @media (min-width: 300px) {
+      body {
+        background-size: 140vw;
+      }
+
+      .main {
+        zoom: 40%
+      }
+    }
+
+    @media (min-width: 460px) {
+      body {
+        background-size: 110vw;
+      }
+    }
+    
+    @media (min-width: 1100px) {
+      body {
+        background-size: 100vw;
+      }
+    }
+    
+    @media (min-width: 1300px) {
+      body {
+        background-size: 90vw;
+      }
+    }
+    
+    @media (min-width: 1400px) {
+      body {
+        background-size: 80vw;
+      }
+    }
+    
+    .main {        
+        margin-top: 40px;
+        margin-bottom: 10px;
+        border: solid 1px #3A3B3B;
+        padding: 40px;
+        background-color: #544b52;
+        border-radius: 10px;
+        box-shadow: 1px 1px 2px rgb(22, 22, 22);
+        width: 385px;
+      }
+
+      .btn {
+        color: #3A3B3B;
+        font-family: Internet Friends;
+        font-size: 30px;
+        width: 80px;
+        height: 70px;
+        margin: 5px;
+        background-color: #F5F4F4;
+        border-radius: 15%;
+        box-shadow: 1px 1px 1px rgb(0, 0, 0);
+        
+      }
+      .mais{
+          background-color: #ffc400d7;
+
+      }
+
+      .menos{
+          background-color: #02fff7;
+      }
+
+      .multi{
+        width: 80px;
+        height: 70px; 
+        background-color: #1e00ffe1;
+
+      }
+
+      .barra{
+        background-color: #6200ffda;
+
+      }
+      
+      .clear {
+        width: 170px;
+        border-radius: 10px;
+        background-color: #ff0000d0;
+      }
+
+      .igual {
+        height: 150px;
+        width: 80px;
+        border-radius: 10px;
+        background-color: #00ff22d0;
+      }
+
+      .zero {
+        width: 170px;
+        border-radius: 10px;
+      }
+
+      
+
+      .visor {
+        width: 370px;
+        text-align: right;
+        font-size: 50px;
+        font-family: Internet Friends;
+        color: #000000;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        background-color: #e6d5d5;
+        border-radius: 10px;
+        box-shadow: 2px 2px 4px #000;
+      }
+
+    
